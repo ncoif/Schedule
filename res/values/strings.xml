@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Schedule</string>
+
+	<string name="previous_week">Prev. Week</string>
+	<string name="next_week">Next Week</string>
+	<string name="mode_name">Edit Mode</string>
+	
+	<string name="btnAM"> AM Shift</string>
+	<string name="btnPM"> PM Shift</string>
+	<string name="btnNYT">NYT Shift</string>
+	
+	<string name="schedule_option_edit">Edit Mode</string>
+	<string name="edit_schedule_option_back">Quit Edit Mode</string>
+	<string name="schedule_option_about">About</string>
+	
+	<string name="about_schedule_contentDescription">[icone]</string>
+	<string name="about_title"><u>What is my Schedule ?</u></string>
+	<string name="about_goal">For anyone who works with shifts, and who wants to remember his schedule.</string>
+	<string name="about_hours">• AM shift from 8:00 am to 4:00 pm\n• PM shift from 4:00 pm to 0:00 am\n• NYT shift from 0:00 am to 8:00 am</string>
+	<string name="about_disclamer">I <b>can\'t</b> be responsible for any problem or loss of data using this app. No rights reserved, 2011.</string>
+	<string name="about_dedicace"><i>For <b>MaeMae</b></i></string>
+	<string name="about_ok">OK</string>
+	
+</resources>

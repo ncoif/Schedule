@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Default">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    style="@style/Default" >
+	    
+	    <ImageView 
+	        android:id="@+id/about_schedule"
+	        android:src="@drawable/about_schedule"
+	        style="@style/AboutText"
+	        android:layout_centerHorizontal="true"
+	        android:contentDescription="@string/about_schedule_contentDescription" />
+	        
+	  	<TextView
+		    android:id="@+id/about_title"
+	        android:text="@string/about_title"
+			style="@style/AboutText"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_schedule"/>
+	    
+	    <TextView 
+	        android:id="@+id/about_goal"
+	        android:text="@string/about_goal"
+			style="@style/AboutText"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_title"/>
+	
+		<TextView 
+		    android:id="@+id/about_hours"
+	        android:text="@string/about_hours"
+	        style="@style/AboutText"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_goal"/>    
+	    
+		<TextView 
+		    android:id="@+id/about_disclamer"
+	        android:text="@string/about_disclamer"
+	        style="@style/AboutText"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_hours"/>
+	    
+		<TextView 
+		    android:id="@+id/about_dedicace"
+	        android:text="@string/about_dedicace"
+	        android:textColor="@color/colorText"
+	        android:textSize="20sp"
+	        style="@style/AboutText"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_disclamer"/>
+		
+		<Button 
+		    android:id="@+id/about_ok"
+		    android:text="@string/about_ok"
+		    android:textColor="@color/colorText"
+		    android:background="@drawable/btn_off_draw"
+		    style="@style/AboutText"
+		    android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/about_dedicace"
+	        android:layout_width="100dp" />
+		
+	</RelativeLayout>
+
+</ScrollView>

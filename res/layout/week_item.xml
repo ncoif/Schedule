@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp" >
+    
+    <TextView 
+		android:id="@+id/day_date"
+		android:textColor="@color/colorText"
+		android:textStyle="italic"
+		android:padding="6dp"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true" />
+   
+    <Button 
+		android:id="@+id/day_am"
+	    android:text="@string/btnAM"
+	    style="@style/ButtonShift"
+    	android:layout_toLeftOf="@+id/day_pm" />
+
+	<Button 
+		android:id="@+id/day_pm"
+	    android:text="@string/btnPM"
+	    style="@style/ButtonShift"
+    	android:layout_toLeftOf="@+id/day_nyt" />
+    
+	<Button 
+		android:id="@+id/day_nyt"
+	    android:text="@string/btnNYT"
+	    style="@style/ButtonShift"
+    	android:layout_alignParentRight="true" />
+    	
+</RelativeLayout>

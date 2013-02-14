@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFFFF</color> <!-- White -->
+    <color name="colorText">#FF000000</color> <!-- Black -->
+	<color name="colorTextButton">#FF000000</color> <!-- White -->
+    <color name="customBlue">#FF3C589D</color> <!-- Custom blue -->
+    <color name="customRed">#FFCC1100</color> <!-- Custom red -->
+</resources>

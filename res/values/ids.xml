@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used to pass data when clicking a button -->
+    <item type="id" name="idType"/> <!-- The id of the drawable of the button  -->
+    <item type="id" name="idDay"/>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Default" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="4dp" >
+    	
+        <Button
+            android:id="@+id/button_previous"
+            android:text="@string/previous_week"
+            android:background="@drawable/btn_off_draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView 
+            android:id="@+id/mode_name"
+            android:text="@string/mode_name"
+            android:textColor="@color/customRed"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" />
+                           
+		<Button
+		    android:id="@+id/button_next"
+            android:text="@string/next_week"
+            android:background="@drawable/btn_off_draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"/>
+		
+		<TextView 
+		    android:id="@+id/week_name"
+		    android:textColor="@color/colorText"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="6dp"
+		    android:textSize="15sp"
+		    android:layout_below="@+id/button_previous"/>
+		
+		<View
+		    android:id="@+id/separator"
+ 			android:layout_width="match_parent"
+ 			android:layout_height="3dp"
+ 			android:layout_below="@+id/week_name" />
+		        
+    </RelativeLayout>
+    
+    <ListView 
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:cacheColorHint="#00000000" >
+        
+    </ListView>
+
+</LinearLayout>
